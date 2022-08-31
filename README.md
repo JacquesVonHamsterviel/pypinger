@@ -1,11 +1,12 @@
 # PyPinger
 
-A simple python command-line tool to graph real-time ping latency. I just made this tool for fun. Feel free to clone the repository for use.
-
+A simple python command-line tool to graph real-time ping/httping latency.
 ## Usage
 
 ```sh
-Usage: python main.py [-h] [-H HOST] [-i INTERVAL] [-l LIMIT] [-t TIMEOUT]
+Usage: python ping.py [-h] [-H HOST] [-i INTERVAL] [-l LIMIT] [-t TIMEOUT]
+
+       python httping.py [-h] [-H HOST] [-i INTERVAL] [-l LIMIT] [-t TIMEOUT]
 
 Plots a real-time graph of ping latency.
 
